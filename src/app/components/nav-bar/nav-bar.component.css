@@ -1,15 +1,24 @@
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
     width: 100%;
     height: 4rem;
 
-    background-color: #919191;
-    box-shadow: 1px 6px 8px -3px rgba(0,0,0,0.64);
+    background-color: #ffffff;
+    box-shadow: 1px 6px 8px -3px rgba(255, 254, 254, 0.64);
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+.sony-logo{
+    width: auto;
+    height: 30px;
 }
 .container-image{
-    padding: 0.5rem;
+    width: 350px;
 }
 .container-image > img{
     width: 200px;
@@ -18,25 +27,30 @@
 .container-items{
     display: flex;
     height: 100%;
-    width: 100%;
+    width: 350px;
     flex-direction: row;
-    padding-left: 3rem;
     align-items: center;
+    justify-content: center;
 }
 .container-items > ul{
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-li,a{
-    color: white;
+li{
+    color: rgb(0, 0, 0);
     font-weight: bold;
     text-decoration: none;
     list-style: none;
 }
 
-li > a:hover{
+li:hover{
     color:rgb(51, 51, 237);
     cursor:pointer;
     transition: all 0.4s;
+}
+.container-sony-logo{
+    display: flex;
+    justify-content: flex-end;
+    width: 350px;
 }

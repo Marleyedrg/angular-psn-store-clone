@@ -6,6 +6,7 @@
     font-family: 'Segoe UI', sans-serif;
 }
 body{
-    background-image: url('src/assets/wallpaper.jpg');
+    background-image: radial-gradient(farthest-corner at 70px 40px,
+    #073762 0%,#3999ed 100%);
     background-size: 100%;
 }
